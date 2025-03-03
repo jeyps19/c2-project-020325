@@ -1,12 +1,12 @@
 C2 Terminal Commands Starter Pack
-
-node.js 18 something LTS version
+Make sure na merong node.js 18 something LTS version
 winget install Schniz.fnm
 fnm install 18
 # Verify the Node.js version:
 node -v # Should print "v18.20.7".
 # Verify npm version:
 npm -v # Should print "10.8.2".
+
 
 ____________________________________________
 
@@ -41,6 +41,14 @@ fnm use 18
 node -v
 (dapat v18... na yung lalabas)
 __________________________________________________
+
+(sa terminal ng vscode)
+npx create-react-app react-admin
+
+Then download and copy and paste yung files from git to the react-admin folder na ginawa mo through that command 
+(usually ang path niyan is thisPC/Name ng device mo/users/react-admin ganyan)
+__________________________________________________
+
 
 npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 react-pro-sidebar@0.7.1 formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo --legacy-peer-deps
 

@@ -58,6 +58,8 @@ const Team = () => {
           >
             {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
             {access === "manager" && <SecurityOutlinedIcon />}
+            {access === "OSA" && <AdminPanelSettingsOutlinedIcon />}
+            {access === "SOHAS" && <SecurityOutlinedIcon />}
             {access === "user" && <LockOpenOutlinedIcon />}
             <Typography color={colors.grey[100]} sx={{ ml: "5px" }}>
               {access}
