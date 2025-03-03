@@ -56,8 +56,6 @@ const Team = () => {
             }
             borderRadius="4px"
           >
-            {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
-            {access === "manager" && <SecurityOutlinedIcon />}
             {access === "OSA" && <AdminPanelSettingsOutlinedIcon />}
             {access === "SOHAS" && <SecurityOutlinedIcon />}
             {access === "user" && <LockOpenOutlinedIcon />}
